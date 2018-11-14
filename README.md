@@ -1,7 +1,7 @@
 # assignment8
 # Project 8 - Pentesting Live Targets
 
-Time spent: **X** hours spent in total
+Time spent: 10 hours spent in total
 
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
@@ -33,7 +33,7 @@ Vulnerability #2: __________________ Username Enumeration- This vulnerability ex
 
 Vulnerability #1: __________________ Insecure Direct Object Reference (IDOR). The exploit was finding the salespeople's ID's. If changed the session ID by one number (1 to 11) we are able to reach new information, which wasn't protected . By changing to 11 in the new ID i was able to see a former salesperson that was fired for stealing, all just by changing the ID number, that is the exploit.
 
-Vulnerability #2: __________________
+Vulnerability #2: __________________ CSRF attack, to find the exploit under the red page, I had to find the users page, once i opened up inspect on any random user, i was able to modify the contents of the page, by doing so I changed the name, ID, etc. The exploit was that the website doesn't protect against CSRF attacks which allowed me to exploit that section.
 
 
 ## Notes
